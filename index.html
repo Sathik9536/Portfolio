@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahamed Sathik</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="Img/icon.png" type="image/x-icon">
+</head>
+<body>
+<div id="header">
+<div class="container">
+    <nav>
+        <img src="Img/Logo.png" class="logo">
+        <ul id="sidemenu">
+            <li> <a href="#header">Home</a></li>
+            <li> <a href="#about">About</a></li>
+           <!-- <li> <a href="#services">Services</a></li>  -->
+            <li> <a href="#portfolio">Projects</a></li>
+            <li> <a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+    </nav>
+    <div class="header-text">
+        <p>Full Stack Web Developer</p>
+        <h1 class="name">Hey, I'm <span >Ahamed Sathik</span></h1>
+    </div>
+</div>
+</div>
+<!--About Section Started-->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Img/Userr.png" alt="" width="500px">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="parag"> As a dedicated Full Stack Developer, I have a strong foundation in both frontend and backend technologies. I have successfully completed a comprehensive web development course on Udemy and have hands-on experience from working on a six-month e-commerce project.
+                     Currently, I am further enhancing my skills through an ongoing full stack development course at a reputed institute.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>HTML</span> <br> Designing a Web Pages</li>
+                            <li><span>CSS</span> <br> To style and Layout the web Pages</li>
+                                <li><span>JavaScript</span> <br> Improving the user interface and interactivity for websites</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li> <span>2024 - Current </span> <br> Full Stack Training in Softlogic Academy</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2021 - 2024</span> <br>I have completed my degree BE Mechanical Engineering in Ramco Institute of Technology
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- -----------------------------------SERVICES-------------------------------->
+
+<!--<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skills</h1>
+        <div class="services-list">
+        <div class="ser1">
+            <i class="fa-solid fa-code"></i>
+            <h2> Web Design</h2>
+            <p class="para">As a freelance web designer, I create visually appealing, user-friendly, and responsive websites tailored to meet your business needs. I specialize in designing intuitive layouts that enhance user experience.</p>
+            <a class="lbtn" href="#"> <span>Learn More</span></a>
+        </div>
+        <div class="ser2">
+            <i class="fa-solid fa-crop"></i>
+            <h2> UI/UX Design</h2>
+            <p class="para">I specialize in crafting user-friendly and visually engaging interfaces that prioritize seamless user experiences. With a focus on responsive design and usability, I transform ideas into intuitive digital products that delight users.</p>
+            <a class="lbtn" href="#">Learn More</a>
+        </div>
+        <div class="ser3">
+            <i class="fa-brands fa-app-store"></i>
+            <h2> App Design</h2>
+            <p class="para">Passionate app designer specializing in creating intuitive, user-friendly mobile and web interfaces. I craft seamless experiences that prioritize functionality and aesthetics, tailored to meet client needs. Let's bring your app idea to life!</p>
+            <a class="lbtn" href="#">Learn More</a>
+        </div>
+            
+        </div>
+
+    </div>
+
+
+
+</div>
+    <!-------------------------------- Portfolio------------------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="work-list">
+            <div class="Work">
+            <img src="Img/Work-1.png">
+            <div class="layer">
+                <h3> Hospital Appointment Booking</h3>
+                <p> This Website connects you to Booking a Appointment</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+            </div>
+            <div class="Work">
+                <img src="Img/Work-2.png">
+                <div class="layer">
+                    <h3> Restaurant Order Booking</h3>
+                    <p> This Website to ordering some foods</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+                </div>
+                <div class="Work">
+                    <img src="Img/Work-3.png">
+                    <div class="layer">
+                        <h3> Gym</h3>
+                        <p> This Website to develope your body and mind</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+        </div>
+        <a href="#" class="btn"> See More</a>
+    </div>
+</div>
+<!-------------------Contact------------------------------>
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p> <i class="fa-solid fa-envelope"></i>ahamedsathikjb@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i>+91 9345157908 </p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ahamed.sathik.31?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/ahmd_sathik?igsh=MXgzMWI3Y3ptcW9vaQ=="><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ahamedsathik"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Sathik9536/Java-FS-Tasks.git"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <a href="Img/Ahamed Sathik.pdf" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+
+
+
+
+
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p> All rights are reserved &copy; 2024 Ahamed Sathik.</p>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!-------------------------------------------------ABOUT JS STARTED-------------------------------------------------------------------------------------->
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+ <!-------------------------------------------------ABOUT JS ENDED-------------------------------------------------------------------------------------->
+
+
+<!-------------------------------------------------- SUBMIT CODE-------------------------------------------------------------------------------------->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx3AsZMILWi-gncnE6hFyN5V3gPKV_2klqzrPmo09KOZkyv2nEB1-7Ya_9s4tYcvAYL/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },1000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
